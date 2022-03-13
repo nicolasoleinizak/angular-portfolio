@@ -1,0 +1,32 @@
+#short{
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+}
+
+#profile-short-description{
+    flex: 1;
+    padding: 0 3rem 0 0;
+    box-sizing: border-box;
+}
+
+#profile-short-description h2{
+    font-family: "Playfair", serif;
+    font-weight: 400;
+}
+
+hr{
+    border-width: 1px;
+    border-color: black;
+}
+
+#profile-avatar{
+    width: 250px;
+    height: 250px;
+    border: 3px solid rgb(200,200,200);
+    border-radius: 50%;
+    overflow: hidden;
+}
+img{
+    width: 100%;
+}
