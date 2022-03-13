@@ -1,0 +1,12 @@
+@font-face{
+    font-family: "Playfair";
+    src: url("../fonts/PlayfairDisplay-Regular.ttf");
+}
+@font-face{
+    font-family: "Josefin";
+    src: url("../fonts/JosefinSans-Regular.ttf");
+}
+@font-face{
+    font-family: "Source Code";
+    src: url("../fonts/SourceCodePro-Italic-VariableFont_wght.ttf");
+}

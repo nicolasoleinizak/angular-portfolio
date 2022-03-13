@@ -1,0 +1,29 @@
+:root{
+    --primary-color: rgb(200,200,200);
+}
+
+html{
+    font-size: 18px;
+}
+
+body{
+    margin: 0
+}
+
+.content{
+    width: 100%;
+    max-width: 1000px;
+    padding: 4rem 3rem;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+h1, h2, h3, h4{
+    font-family: "Josefin", sans-serif;
+}
+
+p{
+    font-size: 1rem;
+    font-family: "Playfair", serif;
+    margin: 14px auto;
+}
