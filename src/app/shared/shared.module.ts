@@ -2,24 +2,23 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
-import { SectionTitleComponent } from './section-title/section-title.component';
-import { SectionComponent } from './section/section.component';
-
-
+import { ProgressBarComponent } from './progress-bar/progress-bar.component';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
     HeaderComponent,
     FooterComponent,
-    SectionTitleComponent,
-    SectionComponent
+    ProgressBarComponent,
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    RouterModule
   ],
   exports: [
     HeaderComponent,
-    SectionTitleComponent
+    FooterComponent,
+    ProgressBarComponent
   ]
 })
 export class SharedModule { }
