@@ -30,3 +30,13 @@ hr{
 img{
     width: 100%;
 }
+
+@media (max-width: 550px){
+    #short{
+        flex-direction: column;
+        align-items: center;
+    }
+    #profile-short-description{
+        padding: 0;
+    }
+}
