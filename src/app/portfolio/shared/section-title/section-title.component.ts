@@ -7,10 +7,7 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class SectionTitleComponent implements OnInit {
 
-  constructor() {
-  }
-
-  @Input() title = '';
+  constructor() { }
 
   ngOnInit(): void {
   }
