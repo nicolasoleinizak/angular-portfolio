@@ -1,0 +1,19 @@
+<app-section>
+    <span>Skills</span>
+    <div content>
+        <div *ngFor="let skill of skills" class="skills-group">
+            <h3>{{skill.category}}</h3>
+            <div class="skills-items">
+                <div class="skill-item" *ngFor="let item of skill.items">
+                    <div class="skill-icon">
+                        <img src={{item.icon}}>
+                    </div>
+                    <app-progress-bar [progress]="item.percent" [height]=5 [color]="'rgb(100,100,100)'"></app-progress-bar>
+                    <div class="skill-name">
+                        {{item.name}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</app-section>
