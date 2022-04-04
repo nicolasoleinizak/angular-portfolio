@@ -21,6 +21,7 @@ export class ProfileComponent implements OnInit {
       '“Sé programar” (Argentina Programa)',
       'Curso de Introducción al Desarrollo Web: HTML y CSS (1/2) (Google Actívate)',
       'Alkemy Acceleration for Fullstack web developer (React)',
+      'Tecnicatura en Ciencia de Datos e Inteligencia Artificial (2022 - )'
     ]
   }
 
@@ -94,6 +95,26 @@ export class ProfileComponent implements OnInit {
             name: 'GitHub',
             icon: './assets/img/icons/stack/github.svg',
             percent: '80'
+          }
+        ]
+      },
+      {
+        category: 'Soft skills',
+        items: [
+          {
+            name: 'Team work',
+            icon: null,
+            percent: '85'
+          },
+          {
+            name: 'Comunication',
+            icon: null,
+            percent: '90'
+          },
+          {
+            name: 'Proactivity',
+            icon: null,
+            percent: '95'
           }
         ]
       }

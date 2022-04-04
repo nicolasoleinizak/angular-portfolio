@@ -18,8 +18,6 @@ export class ProgressBarComponent implements OnInit {
   
   ngOnInit(): void {
 
-    console.log(this.progress)
-
     this.containerStyle = {
       'height': this.height+'px',
       'border-radius': this.height/2,
